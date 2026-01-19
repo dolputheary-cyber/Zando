@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: "Open Sans", sans-serif;
+   background-color: #eee;
+   font-size: 1.6rem;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+h1,h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+h3,h4{
+    font-size: 1.8rem;
+}
+span,a{
+    display: inline-block;
+}
+.container-width{
+    width: 85%;
+    margin: auto;
+}
+.navbar{
+  
+}
+.nav{
+    /* background-color: blue; */
+    display: flex;
+}
+.menu-left{
+    width: 40%;
+    /* background-color: brown; */
+}
+.menu-left ul{
+    display: flex;
+    gap: 1rem;
+}
+.menu-left ul li{
+    padding: 1.5rem 1rem;
+}
+.menu-left ul li:hover{
+    background-color: white;
+}
+.menu-center{
+    width: 20%;
+    /* background-color: chartreuse; */
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.menu-center img {
+    width: 125px;
+    /* background-color: blanchedalmond; */
+}
+.menu-right{
+    width: 40%;
+   
+}
+.menu-right ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+    background-color: aqua;
+
+}
+.menu-right ul li {
+    height: 100%;
+    display: flex;
+    padding: 0 1.5rem;
+    align-items: center;
+}
+.menu-right ul li:hover{
+    background-color: white
+    
+}
+.search{
+    display: flex;
+    height: 65%;
+    border: 1px solid gray;
+    width: 150px;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+.search input{
+    width: 75%;
+    border: none;
+
+}
+.search input:focus{
+    outline: none;
+
+}
+.search span{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
