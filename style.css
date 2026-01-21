@@ -74,7 +74,7 @@ span,a{
     align-items: center;
     height: 100%;
     gap: 1rem;
-    background-color: aqua;
+    /* background-color: aqua; */
 
 }
 .menu-right ul li {
@@ -110,4 +110,32 @@ span,a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hero{
+   
+    height: 650px;
+}
+.hero-btn{
+    position: absolute;
+    bottom: 15%;
+    display: flex;
+    gap: 20px;
+}
+.hero-btn button{
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.5rem;
+    border: black 1px solid;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    transition: all 3s;
+
+}
+.hero-btn button:hover{
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+     rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

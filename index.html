@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -13,10 +12,34 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+      <style>
+    
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+  </head>
   <body>
-    <h1>dfdjfdjfdsjdfshjfdjkfdkjhfdhkjgit</h1>
     <nav class="navbar">
-      <div class="container-width nav">
+      <div> 
+        <div class="container-width nav">
         <div class="menu-left">
           <ul>
             <li>Women</li>
@@ -50,6 +73,25 @@
           </ul>
         </div>
       </div>
+      <div class="container-width" style="background-color: brown;">1</div>
     </nav>
+  
+    <!-- hero section -->
+     <section class="container-width hero">
+       <swiper-container class="mySwiper">
+    <swiper-slide>
+      <img src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start from 50/50-OFF_Main_ZANDO (2160x1066).jpg" alt="">
+      <div class="hero-btn">
+        <button>Shop Men</button>
+        <button>Shop Women</button>
+      </div>
+       </swiper-slide>
+    <swiper-slide><img src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start from 50/35-OFF_Main_ZANDO (2160x1066).jpg" alt="" >
+    </swiper-slide>
+  </swiper-container>
+     </section>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
+
 </html>
+
