@@ -34,6 +34,10 @@ span,a{
     margin: auto;
 }
 .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: whitesmoke;
   
 }
 .nav{
@@ -139,3 +143,131 @@ span,a{
      rgba(0, 0, 0, 0.17) 0px 12px 13px,
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.brand {
+    height: 200px;
+    background-color: white;
+    display: flex;
+}
+.brand div{
+
+    height: 100%;
+
+}
+.brand div img {
+    width: 100%;
+}
+.slide{
+    height: 350px;
+}
+.main-card {
+    height: 500px;
+    background-color: green; 
+          
+}
+.header-main-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.header-main-card h1{
+    font-size: 2.8rem;
+} 
+.header-main-card a {
+    font-size: 1.8rem;
+    color: black;
+}
+.body-main-card{
+    background-color: beige;
+    height: auto;
+    display: flex;
+    gap: 1%;
+}
+.card{
+    width: 24.25%;
+    height: 450px; 
+    background-color: rgb(203, 130, 20);
+}
+.img-card{
+    height: 75%;
+    background-color: bisque;
+    position: relative;
+}.img-card img {
+    width: 100%;
+    height: 100%;
+}
+.card-body{
+    height: 25%;
+    background-color: aquamarine;
+    display: flex;
+    padding: 1.3rem;
+}
+.card-text{
+    width: 85%;
+    /* background-color: blueviolet; */
+}
+.price{
+    display: block;
+}
+.price span:first-child{
+    color: red;
+
+}
+.price span:last-child{
+    text-decoration: line-through;
+}
+.card-text p{
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+}
+/* .dis{
+   padding: 0.5rem 0.4rem
+} */
+.dis{
+    position: absolute;
+    left: 6%;
+    right: 5%;
+    width: fit-content;
+    background: red;
+    padding:  0.5rem 1.2rem;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 400px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer > div {
+    width: 20%;
+    background-color: blueviolet;
+
+}
+
+
+    
+
+   
